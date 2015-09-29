@@ -1,0 +1,29 @@
+{
+  "name": "oversized-images",
+  "version": "0.0.1",
+  "description": "checks image sizes and creates a preview version",
+  "main": "oversized.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phalanstere/Oversized.git"
+  },
+  "keywords": [
+    "resize",
+    "on-the-fly",
+    "images"
+  ],
+  "dependencies": {
+	"gm": "^1.20.0",
+  "q": "^1.4.1"
+
+  },
+  "author": "phalanstere <burckhardt@ludicmedia.de> (https://github.com/Phalanstere)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phalanstere/Oversized/issues"
+  },
+  "homepage": "https://github.com/Phalanstere/Oversized#readme"
+}
