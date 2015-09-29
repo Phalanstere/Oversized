@@ -43,7 +43,8 @@ To invoke the reduction process, call
 	reducer.check([files]);
 ```
 
-The parameter **files** takes single files as well as an array of files.
+The parameter **files** takes a directory, as single files or an array of files.
+If you choose a directory, the library uses a recursive directory search. Therefore, you can scan and manipulate all the embedded subfolders.
 Since the library uses **<a href = "https://github.com/kriskowal/q">Q</a> promises**, all the calls are chained.
 By using a callback you can use it asynchronously.
    
