@@ -1,8 +1,8 @@
 {
   "name": "oversized-images",
-  "version": "0.0.21",
+  "version": "0.0.3",
   "description": "checks image sizes and creates a preview version",
-  "main": "lib/bundle.min.js",
+  "main": "lib/oversized.js",
   "scripts": {
     "test": "test.js"
   },
@@ -17,13 +17,14 @@
   ],
   "dependencies": {
 	"gm": "^1.20.0",
-  	"q": "^1.4.1"
+  	"q": "^1.4.1",
+    "recursive-readdir": "^1.2.1"
 
   },
   "devDependencies": {
     "browserify-css": "~0.7.1",
   	"babelify": "^6.0.0",
-  	"browserify-fs": "^1.0.0" 
+  	"browserify-fs": "^1.0.0"
   },
   "author": "phalanstere <burckhardt@ludicmedia.de> (https://github.com/Phalanstere)",
   "license": "MIT",
