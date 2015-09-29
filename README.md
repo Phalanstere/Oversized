@@ -30,11 +30,11 @@ Then you create an **oversized** object:
   			});
 ```
 
-- **max** 			affects all the pictures that have a size greater than max [in MB]
-- **max-width**   	the maximal width of your preview
-- **max-height**   	the maximal height of your preview
-- **suffix**		allows you to define the preview suffix
-- **callback**      callback function, receives the array of files that suffix the preview condition
+- **max**: 			affects all the pictures that have a size greater than max [in MB]
+- **max-width**:   	the maximal width of your preview
+- **max-height**:  	the maximal height of your preview
+- **suffix**:		allows you to define the preview suffix
+- **callback**:     callback function, receives the array of files that suffix the preview condition
 
 
 To invoke the reduction process, call
