@@ -2,10 +2,10 @@
 ##creates a preview  from oversized images
 
 
-When you are working with professional camera equipment it is common that you encounter oversized picture resolutions that will cause rendering problems in a web conect.
+When you are working with professional camera equipment it is common that you encounter oversized picture resolutions that will cause rendering problems in a web context.
 
-To prevent this, the **OVersoized** package allows the dynamic creation of preview images.
-In order to make use of it in a frontend, you have to browserify your project.
+To prevent this, the **Oversized** package allows the dynamic creation of preview images.
+In order to make use of it, you have to browserify your project.
 
 
 ```html
@@ -52,14 +52,14 @@ So your call might look like this:
       console.log("processed " + result);
   };
 
-var test = new Oversized({
-  max: 1.4,
-  max_width: 1920,
-  max_height: 1080,
-  callback: done,
-  });
+	var test = new Oversized({
+	  max: 1.4,
+	  max_width: 1920,
+	  max_height: 1080,
+	  callback: done,
+	  });
 
-var a = test.check(["file1.jpg", "file2.jpg", "file3.jpg"]);
+	var a = test.check(["file1.jpg", "file2.jpg", "file3.jpg"]);
 ```   
    
 The callback gets an array of files that matches the preview conditions.
