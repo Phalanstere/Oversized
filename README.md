@@ -34,7 +34,7 @@ Then you create an **oversized** object:
 - **max-width**:   	the maximal width of your preview
 - **max-height**:  	the maximal height of your preview
 - **suffix**:		allows you to define the preview suffix
-- **callback**:     callback function, receives the array of files that suffix the preview condition
+- **callback**:     callback function, receives the array of files that suffices the preview condition
 
 
 To invoke the reduction process, call
